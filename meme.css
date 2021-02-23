@@ -1,0 +1,71 @@
+
+body{
+    background-color:lightcoral;
+}
+
+h1 {
+    color:blueviolet;
+    background-color: burlywood;
+    text-align: center;
+    max-width: 600px;
+}
+
+#linksForImages{
+    background-color:darkturquoise;
+    min-width: 300px;
+    max-width: fit-content;
+}
+
+#top_text{
+    background-color:rgb(219, 231, 231);
+    min-width: 300px;
+    max-width: fit-content;
+}
+
+#bottom_text{
+    background-color:rgb(223, 155, 211);
+    min-width: 300px;
+    max-width: fit-content;
+}
+
+#memeContainer{
+    /* position: absolute;  NO absolute position*/
+    position: relative;
+    top: 8px;
+    left: 16px;
+}
+
+.top_text{
+    position:absolute;
+    top:15px;
+    left:30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:x-large;
+    z-index:3;
+}
+
+.bottom_text{
+    position:absolute;
+    bottom:20px;
+    left:30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:x-large;
+    z-index:3
+}
+
+.meme {
+    width: 99%;
+    justify-content: center;
+    position:relative;
+}
+
+.button {
+    float: right;
+}
+  
+  
+  
+
+  
+  
+
